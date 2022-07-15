@@ -2,70 +2,81 @@ body {
   background-color: #0F1624;
   background-image: url(assets/hero_img.svg);
   background-repeat: no-repeat;
-  background-size: 758px 758px;
+  background-size: 620px;
   background-attachment: fixed;
-  background-position: right bottom;
+  background-position: left 930px top 95px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
 body .conteiner {
   position: absolute;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
   height: 900px;
   left: 200px;
 }
 body .conteiner header {
+  margin-right: 0px;
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
+  justify-content: space-between;
   height: 137px;
-  top: 0px;
 }
-body .conteiner .logo {
+body .conteiner header .logo {
+  margin-top: 10px;
   width: 150px;
   color: black;
   font-size: 50%;
-  margin-top: 12px;
   margin-left: 20px;
 }
-body .conteiner .menu {
+body .conteiner header .menu {
+  line-height: 36px;
   font-size: 20px;
-  margin-top: 5px;
   text-indent: 30px;
 }
-body .conteiner .menu a {
+body .conteiner header .menu a {
   text-decoration: none;
   color: #FFFFFF;
 }
-body .conteiner .menu a:hover {
+body .conteiner header .menu a:hover {
   border-bottom: 4px solid #945DD6;
 }
-body .conteiner ul {
+body .conteiner header ul {
   display: flex;
 }
-body .conteiner ul li {
+body .conteiner header ul li {
   list-style: none;
 }
-body .conteiner ul .socialicon {
-  margin-right: 50px;
-  width: 32px;
-  height: 32px;
-  margin-top: 10px;
+body .conteiner header ul .socialicon {
+  margin-right: 0px;
+  margin-left: 50px;
+  line-height: 36px;
 }
-body .conteiner h1 {
-  margin-left: 125px;
-  font-size: 42px;
+body .conteiner .hearopage {
+  margin-left: 100px;
+  max-width: 809px;
+  height: 459px;
+}
+body .conteiner .hearopage h1 {
+  font-size: 50px;
   line-height: 82px;
 }
-body .conteiner p {
-  margin-left: 125px;
-  margin-right: 400px;
-  font-size: 25px;
+body .conteiner .hearopage p {
+  font-size: 30px;
   line-height: 45px;
   color: #BCBCBC;
 }
-body .conteiner .button {
-  margin-left: 125px;
-  width: 28px;
+body .conteiner .hearopage .button {
+  width: 280px;
+  height: 80px;
+  left: 115px;
+  top: 662px;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
   line-height: 42px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 83px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }/*# sourceMappingURL=style.css.map */
