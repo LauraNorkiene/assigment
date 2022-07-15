@@ -1,0 +1,66 @@
+body {
+  background-color: #0F1624;
+  background-image: url(assets/hero_img.svg);
+  background-repeat: no-repeat;
+  background-size: 758px 758px;
+  background-attachment: fixed;
+  background-position: right bottom;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+body .conteiner {
+  position: absolute;
+  max-width: 1200px;
+  height: 900px;
+  left: 200px;
+}
+body .conteiner header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  height: 137px;
+  top: 0px;
+}
+body .conteiner .logo {
+  width: 150px;
+  color: black;
+  font-size: 50%;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+body .conteiner .menu {
+  font-size: 20px;
+  margin-top: 5px;
+  text-indent: 30px;
+}
+body .conteiner .menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .conteiner .menu a:hover {
+  border-bottom: 4px solid #945DD6;
+}
+body .conteiner ul {
+  display: flex;
+}
+body .conteiner ul li {
+  list-style: none;
+}
+body .conteiner ul .socialicon {
+  margin-right: 50px;
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+}
+body .conteiner h1 {
+  margin-left: 125px;
+  font-size: 42px;
+  line-height: 82px;
+}
+body .conteiner p {
+  margin-left: 125px;
+  margin-right: 350px;
+  font-size: 25px;
+  line-height: 45px;
+  color: #BCBCBC;
+}/*# sourceMappingURL=style.css.map */

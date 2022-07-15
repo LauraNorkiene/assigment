@@ -1,0 +1,80 @@
+body {
+    background-color: #0F1624;
+    background-image: url(assets/hero_img.svg);
+    background-repeat: no-repeat;
+    background-size: 758px 758px;
+    background-attachment: fixed;
+    background-position: right bottom;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    .conteiner {
+        position: absolute;
+        max-width: 1200px;
+        height: 900px;
+        left: 200px;
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            max-width: 100%;
+            height: 137px;
+            top: 0px
+        }
+
+        .logo {
+            width: 150px;
+            color: black;
+            font-size: 50%;
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+
+        .menu {
+            font-size: 20px;
+            //font-weight: 500px;
+            margin-top: 5px;
+            text-indent: 30px;
+
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            a:hover {
+                border-bottom: 4px solid #945DD6;
+            }
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                list-style: none;
+
+            }
+
+            .socialicon {
+                margin-right: 50px;
+                width: 32px;
+                height: 32px;
+                margin-top: 10px;
+            }
+        }
+
+
+        h1 {
+            margin-left: 125px;
+            font-size: 42px;
+            line-height: 82px;
+        }
+
+        p {
+            margin-left: 125px;
+            margin-right: 350px;
+            font-size: 25px;
+            line-height: 45px;
+            color: #BCBCBC;
+        }
+    }
+}
