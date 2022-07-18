@@ -21,6 +21,7 @@ body .conteiner header {
   justify-content: space-around;
 }
 body .conteiner header .logo {
+  margin-left: 20px;
   width: 200px;
   margin-top: 13PX;
 }
@@ -28,8 +29,9 @@ body .conteiner header .burger {
   display: none;
 }
 body .conteiner header .menu {
-  margin-left: 40px;
-  margin-top: 5px;
+  margin-left: 30px;
+  text-indent: 50px;
+  padding-top: 20px;
   font-size: 25px;
   margin: 0 auto;
 }
@@ -50,26 +52,28 @@ body .conteiner header ul li {
   list-style: none;
 }
 body .conteiner header ul .socialicon {
-  margin-top: 10px;
+  margin-top: 23px;
+  margin-left: 35px;
 }
 body .conteiner header ul .socialicon:hover {
   background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
 }
 body .conteiner .hearopage {
-  margin-top: 135px;
-  max-width: 655px;
+  margin-top: 180px;
+  max-width: 800px;
+  margin-left: 155px;
 }
 body .conteiner .hearopage h1 {
   font-size: 54px;
 }
 body .conteiner .hearopage p {
-  margin-top: 55px;
-  font-size: 24px;
+  margin-top: 70px;
+  font-size: 30px;
   font-weight: bold;
   color: #BCBCBC;
 }
 body .conteiner .hearopage .button {
-  margin-top: 45px;
+  margin-top: 65px;
   width: 285px;
   height: 90px;
   font-weight: 600;
