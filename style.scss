@@ -20,12 +20,13 @@ body {
             max-width: 100%;
             margin: 0 auto;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+
 
             .logo {
-                margin-left: 20px;
                 width: 200px;
                 margin-top: 13PX;
+                margin-left: 38px;
             }
 
             .burger {
@@ -33,11 +34,11 @@ body {
             }
 
             .menu {
-                margin-left: 30px;
                 text-indent: 50px;
                 padding-top: 20px;
                 font-size: 25px;
                 margin: 0 auto;
+
 
                 a {
                     text-decoration: none;
@@ -60,7 +61,7 @@ body {
 
                 .socialicon {
                     margin-top: 23px;
-                    margin-left: 35px;
+                    margin-left: 50px;
                 }
 
                 .socialicon:hover {
@@ -87,7 +88,7 @@ body {
             }
 
             .button {
-                margin-top: 65px;
+                margin-top: 60px;
                 width: 285px;
                 height: 90px;
                 font-weight: 600;
@@ -124,6 +125,7 @@ body {
     body .conteiner header {
         margin-left: 30px;
         justify-content: space-between;
+
     }
 
 
@@ -139,4 +141,7 @@ body {
 
     }
 
+    body .conteiner header .logo {
+        margin-left: 0;
+    }
 }
