@@ -1,18 +1,24 @@
 $gradient: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
 
 body {
+    overflow-x: hidden;
     background-color: #0F1624;
-    background-image: url(assets/hero_img.svg);
+    /*background-image: url(assets/hero_img.svg);
     background-repeat: no-repeat;
     background-size: 770px;
     background-attachment: fixed;
-    background-position: left 870px top 130px;
+    background-position: left 870px top 130px;*/
     font-family: 'Poppins', sans-serif;
     color: white;
 
     .conteiner {
+        background-image: url(assets/hero_img.svg);
+        background-repeat: no-repeat;
+        background-size: 770px;
+        // background-attachment: fixed;
+        background-position: left 680px top 130px;
         max-width: 1200px;
-        height: 900px;
+        //height: 900px;
         left: 200px;
         margin: 0 auto;
 
@@ -29,7 +35,7 @@ body {
                 margin-left: 38px;
             }
 
-            .burger {
+            #nav-burger {
                 display: none;
             }
 
@@ -72,6 +78,7 @@ body {
         }
 
         .hearopage {
+
             margin-top: 180px;
             max-width: 800px;
             margin-left: 155px;
@@ -102,30 +109,159 @@ body {
                 background-image: linear-gradient(rgba(24, 118, 159, 0.4) 0 0);
             }
         }
+
+        .projects {
+            width: 100%;
+
+            h2 {
+                margin-left: 130px;
+                margin-top: 200px;
+                font-weight: 600;
+                font-size: 55px;
+                line-height: 82px;
+
+            }
+
+            .project1 {
+                width: 100%;
+                border-color: #0F1624;
+                box-shadow: 0px 0px 12px #FFFFFF;
+                border-radius: 50px 0px;
+                display: flex;
+                padding: 20px;
+
+
+                .conteiner1 {
+                    // justify-content: center;
+                }
+
+
+                .foto_project1 {
+                    width: 400px;
+                    height: 500px;
+                    border: 1px solid #000000;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    border-radius: 0px 0px 50px 0px;
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 36px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 28px;
+                }
+
+                .button1 {
+                    border-radius: 83px;
+                    width: 220px;
+                    height: 65px;
+                    width: 220px;
+                    height: 65px;
+                    background-color: $gradient;
+                }
+            }
+
+            .two_projects {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .project2,
+            .project3 {
+
+                padding: 20px;
+
+                margin-top: 100px;
+
+                width: 531.82px;
+                border-color: #0F1624;
+                box-shadow: 0px 0px 12px #FFFFFF;
+                border-radius: 50px 0px;
+
+                .foto_two_projects {
+                    width: 530px;
+                    height: 350px;
+                    border-radius: 50px 8px 8px 8px;
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 36px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 28px;
+                }
+
+                .button2 {
+                    width: 220px;
+                    height: 65px;
+                    border-radius: 83px;
+                    background-color: $gradient;
+                }
+
+
+            }
+        }
     }
 }
+
 
 @media (max-width: 900px) {
     body {
         background-position: left 455px top 95px;
     }
 
-    .menu {
-        display: none;
+    ul {
+        display: grid;
+        color: #0F1624;
     }
 
-    body .conteiner header .burger {
+    body .conteiner header #nav-burger {
         display: inline;
         position: absolute;
         font-size: 45px;
         top: 20px;
         right: 30px;
+        border-radius: 10%;
+
+    }
+
+    nav {
+        width: fit-content;
+        position: absolute;
+        overflow: hidden;
+        transition: 0.8s ease-in;
+        background-color: gray;
+
+        display: grid;
+        margin-top: 75px;
+        margin-right: 50px;
+        border-radius: 10px;
+    }
+
+    nav.show {
+
+
+        max-height: 400px;
+        width: 250px;
+    }
+
+    .relative {
+        position: relative;
     }
 
     body .conteiner header {
         margin-left: 30px;
         justify-content: space-between;
-
     }
 
 
