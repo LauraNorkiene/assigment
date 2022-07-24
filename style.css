@@ -1,11 +1,6 @@
 body {
   overflow-x: hidden;
   background-color: #0F1624;
-  /*background-image: url(assets/hero_img.svg);
-  background-repeat: no-repeat;
-  background-size: 770px;
-  background-attachment: fixed;
-  background-position: left 870px top 130px;*/
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -13,7 +8,7 @@ body .conteiner {
   background-image: url(assets/hero_img.svg);
   background-repeat: no-repeat;
   background-size: 770px;
-  background-position: left 680px top 130px;
+  background-position: left 710px top 125px;
   max-width: 1200px;
   left: 200px;
   margin: 0 auto;
@@ -26,14 +21,14 @@ body .conteiner header {
 }
 body .conteiner header .logo {
   width: 200px;
-  margin-top: 13PX;
+  margin-top: 15PX;
   margin-left: 38px;
 }
 body .conteiner header #nav-burger {
   display: none;
 }
 body .conteiner header .menu {
-  text-indent: 50px;
+  text-indent: 53px;
   padding-top: 20px;
   font-size: 25px;
   margin: 0 auto;
@@ -59,15 +54,16 @@ body .conteiner header ul .socialicon {
   margin-left: 50px;
 }
 body .conteiner header ul .socialicon:hover {
-  background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  opacity: 0.5;
 }
 body .conteiner .hearopage {
-  margin-top: 180px;
+  margin-top: 195px;
   max-width: 800px;
-  margin-left: 155px;
+  margin-left: 238px;
 }
 body .conteiner .hearopage h1 {
   font-size: 54px;
+  word-spacing: 3px;
 }
 body .conteiner .hearopage p {
   margin-top: 70px;
@@ -76,11 +72,12 @@ body .conteiner .hearopage p {
   color: #BCBCBC;
 }
 body .conteiner .hearopage .button {
+  padding-right: 14px;
   margin-top: 60px;
-  width: 285px;
+  width: 280px;
   height: 90px;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 30px;
   color: white;
   background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
   border-radius: 83px;
@@ -92,34 +89,45 @@ body .conteiner .projects {
   width: 100%;
 }
 body .conteiner .projects h2 {
-  margin-left: 130px;
-  margin-top: 200px;
+  margin-left: 125px;
+  margin-top: 155px;
   font-weight: 600;
   font-size: 55px;
   line-height: 82px;
 }
 body .conteiner .projects .project1 {
-  width: 100%;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 93%;
   border-color: #0F1624;
   box-shadow: 0px 0px 12px #FFFFFF;
   border-radius: 50px 0px;
   display: flex;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 30px;
+}
+body .conteiner .projects .project1 .conteiner1 {
+  display: grid;
+  width: 500px;
 }
 body .conteiner .projects .project1 .foto_project1 {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 545px;
   border: 1px solid #000000;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 0px 0px 50px 0px;
 }
 body .conteiner .projects .project1 h3 {
+  margin-left: 5px;
+  margin-top: 50px;
   font-weight: 600;
   font-size: 36px;
   text-align: center;
 }
 body .conteiner .projects .project1 p {
-  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 31px;
   font-weight: 600;
   font-size: 28px;
 }
@@ -127,17 +135,27 @@ body .conteiner .projects .project1 .button1 {
   border-radius: 83px;
   width: 220px;
   height: 65px;
-  width: 220px;
-  height: 65px;
-  background-color: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  margin-left: 160px;
+  margin-bottom: 5px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  padding-right: 15px;
 }
 body .conteiner .projects .two_projects {
+  margin-top: 30px;
+  margin-left: 52px;
   display: flex;
   justify-content: space-between;
+  width: 98%;
+}
+body .conteiner .projects .project3 {
+  margin-left: 105px;
 }
 body .conteiner .projects .project2,
 body .conteiner .projects .project3 {
-  padding: 20px;
+  padding: 25px;
   margin-top: 100px;
   width: 531.82px;
   border-color: #0F1624;
@@ -146,19 +164,22 @@ body .conteiner .projects .project3 {
 }
 body .conteiner .projects .project2 .foto_two_projects,
 body .conteiner .projects .project3 .foto_two_projects {
-  width: 530px;
-  height: 350px;
+  width: 485px;
+  height: 280px;
   border-radius: 50px 8px 8px 8px;
 }
 body .conteiner .projects .project2 h3,
 body .conteiner .projects .project3 h3 {
+  margin-top: 12px;
+  margin-right: 10px;
   font-weight: 600;
   font-size: 36px;
   text-align: center;
 }
 body .conteiner .projects .project2 p,
 body .conteiner .projects .project3 p {
-  text-align: center;
+  margin-top: 25px;
+  margin-left: 10px;
   font-weight: 600;
   font-size: 28px;
 }
@@ -167,7 +188,12 @@ body .conteiner .projects .project3 .button2 {
   width: 220px;
   height: 65px;
   border-radius: 83px;
-  background-color: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  margin-left: 140px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 900px) {
