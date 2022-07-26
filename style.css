@@ -3,12 +3,12 @@ body {
   background-color: #0F1624;
   font-family: "Poppins", sans-serif;
   color: white;
-}
-body .conteiner {
   background-image: url(assets/hero_img.svg);
   background-repeat: no-repeat;
   background-size: 770px;
-  background-position: left 710px top 125px;
+  background-position: left 875px top 130px;
+}
+body .conteiner {
   max-width: 1200px;
   left: 200px;
   margin: 0 auto;

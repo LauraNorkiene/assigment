@@ -6,11 +6,13 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
 
+    background-image: url(assets/hero_img.svg);
+    background-repeat: no-repeat;
+    background-size: 770px;
+    background-position: left 875px top 130px;
+
     .conteiner {
-        background-image: url(assets/hero_img.svg);
-        background-repeat: no-repeat;
-        background-size: 770px;
-        background-position: left 710px top 125px;
+
         max-width: 1200px;
         left: 200px;
         margin: 0 auto;
