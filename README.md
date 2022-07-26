@@ -1,6 +1,8 @@
 # assigment
 PRACTICE TASK => Crop the provided FIGMA design (html + CSS)
+
 17/07/2022
+
 https://lauranorkiene.github.io/assigment/
 
 
