@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  background-color: #0F1624;
+  background-color: #0f1624;
   font-family: "Poppins", sans-serif;
   color: white;
   background-image: url(assets/hero_img.svg);
@@ -21,7 +21,7 @@ body .conteiner header {
 }
 body .conteiner header .logo {
   width: 200px;
-  margin-top: 15PX;
+  margin-top: 15px;
   margin-left: 38px;
 }
 body .conteiner header #nav-burger {
@@ -35,12 +35,12 @@ body .conteiner header .menu {
 }
 body .conteiner header .menu a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 body .conteiner header .menu a:hover {
   border-bottom: 4px solid;
-  -o-border-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-     border-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  -o-border-image: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+     border-image: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
   border-image-slice: 1;
 }
 body .conteiner header ul {
@@ -69,7 +69,7 @@ body .conteiner .hearopage p {
   margin-top: 70px;
   font-size: 30px;
   font-weight: bold;
-  color: #BCBCBC;
+  color: #bcbcbc;
 }
 body .conteiner .hearopage .button {
   margin-top: 60px;
@@ -78,7 +78,7 @@ body .conteiner .hearopage .button {
   font-weight: 600;
   font-size: 30px;
   color: white;
-  background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background-image: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
   border-radius: 83px;
 }
 body .conteiner .hearopage .button:hover {
@@ -86,7 +86,7 @@ body .conteiner .hearopage .button:hover {
 }
 body .conteiner a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 body .conteiner .projects {
   width: 100%;
@@ -101,8 +101,8 @@ body .conteiner .projects .project1 {
   margin-top: 120px;
   margin-left: 50px;
   width: 93%;
-  border-color: #0F1624;
-  box-shadow: 0px 0px 12px #FFFFFF;
+  border-color: #0f1624;
+  box-shadow: 0px 0px 12px #ffffff;
   border-radius: 50px 0px;
   display: flex;
   justify-content: space-between;
@@ -138,7 +138,7 @@ body .conteiner .projects .project1 h3:after {
   bottom: 20px;
   left: 105px;
   border-radius: 10px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
 }
 body .conteiner .projects .project1 p {
   width: 95%;
@@ -153,8 +153,8 @@ body .conteiner .projects .project1 .button1 {
   height: 60%;
   margin-left: 160px;
   margin-bottom: 40px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-  color: #FFFFFF;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  color: #ffffff;
   font-weight: 600;
   font-size: 20px;
   padding-right: 15px;
@@ -171,8 +171,8 @@ body .conteiner .projects .project3 {
   width: 76%;
   padding: 25px;
   margin-top: 100px;
-  border-color: #0F1624;
-  box-shadow: 0px 0px 12px #FFFFFF;
+  border-color: #0f1624;
+  box-shadow: 0px 0px 12px #ffffff;
   border-radius: 50px 0px;
 }
 body .conteiner .projects .project2 .foto_two_projects,
@@ -199,7 +199,7 @@ body .conteiner .projects .project3 h3:after {
   bottom: -15px;
   left: 100px;
   border-radius: 10px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
 }
 body .conteiner .projects .project2 p,
 body .conteiner .projects .project3 p {
@@ -212,11 +212,11 @@ body .conteiner .projects .project3 .button2 {
   width: 46%;
   height: 70px;
   border-radius: 83px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
   margin-top: 17px;
   font-weight: 600;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 28%;
 }
 body .conteiner .projects .project3 {
@@ -235,6 +235,146 @@ body .conteiner .projects .project3 .button2 {
   margin-top: 15px;
   width: 45%;
 }
+body .conteiner .technologies {
+  margin-left: 155px;
+  margin-top: 180px;
+  font-weight: 600;
+  font-size: 64px;
+}
+body .conteiner .skills {
+  width: 97.5%;
+  margin-left: 55px;
+}
+body .conteiner .skills h4 {
+  width: 5;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 20px;
+  line-height: 54px;
+}
+body .conteiner .skills p {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-right: 110px;
+}
+body .conteiner .skills .html,
+body .conteiner .skills .java,
+body .conteiner .skills .css,
+body .conteiner .skills .ui,
+body .conteiner .skills .angular,
+body .conteiner .skills .react {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body .conteiner .skills .html_p,
+body .conteiner .skills .javascript_p,
+body .conteiner .skills .css_p,
+body .conteiner .skills .UI_p,
+body .conteiner .skills .Angular_p,
+body .conteiner .skills .react_p {
+  width: 100%;
+  height: 35px;
+  background: #162950;
+  border-radius: 83px;
+}
+body .conteiner .skills .html_c,
+body .conteiner .skills .javascript_c,
+body .conteiner .skills .css_c {
+  width: 75%;
+  height: 35px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+body .conteiner .skills .UI_c {
+  width: 50%;
+  height: 35px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+body .conteiner .skills .Angular_c,
+body .conteiner .skills .react_c {
+  width: 25%;
+  height: 35px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+body .conteiner .additional {
+  display: flex;
+  justify-content: space-around;
+}
+body .conteiner .additional .skills_list {
+  position: relative;
+  list-style: none;
+  margin-top: 35px;
+  margin-right: 85px;
+  font-weight: 600;
+  font-size: 36px;
+}
+body .conteiner .additional .skills_list:after {
+  content: "";
+  position: absolute;
+  left: -70px;
+  width: 24.36px;
+  height: 25px;
+  border-radius: 0px 250px 250px 250px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+}
+body .conteiner .h3 {
+  margin-top: 170px;
+  margin-left: 55px;
+  font-weight: 600;
+  font-size: 48px;
+}
+body .conteiner .about_me_h2 {
+  margin-top: 160px;
+  margin-left: 155px;
+  font-weight: 600;
+  font-size: 64px;
+}
+body .conteiner .about_me {
+  display: flex;
+  justify-content: space-between;
+}
+body .conteiner .about_me .description {
+  margin-top: 25px;
+  margin-left: 155px;
+  width: 40%;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+}
+body .conteiner .about_me .rain_dropp {
+  position: relative;
+  margin-top: 50px;
+  margin-right: 60px;
+  width: 349px;
+  height: 315.07px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  box-shadow: 0px 0px 12px #ffffff;
+  border-radius: 0px 250px 250px 250px;
+}
+body .conteiner .about_me .avatar {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+body .conteiner footer {
+  margin-top: 210px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 42px;
+}
+body .conteiner footer .footer_icon {
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 69px;
+  height: 57.68px;
+}
 
 @media screen and (max-width: 1200px) {
   body .conteiner .hearopage h1 {
@@ -243,7 +383,12 @@ body .conteiner .projects .project3 .button2 {
   body .conteiner .projects h2,
 body .conteiner .projects .project1 h3,
 body .conteiner .projects .project2 h3,
-body .conteiner .projects .project3 h3 {
+body .conteiner .projects .project3 h3,
+body .conteiner .technologies,
+body .conteiner .h3,
+body .conteiner .about_me_h2,
+body .conteiner footer,
+body .conteiner footer .footer_icon {
     font-size: calc(23px + 1vw);
   }
   body .conteiner .hearopage p,
@@ -253,7 +398,11 @@ body .conteiner .projects .project3 p,
 body .conteiner .projects .project3 .button2,
 body .conteiner .projects .project2 .button2,
 body .conteiner .projects .project1 .button1,
-body .conteiner .hearopage .button {
+body .conteiner .hearopage .button,
+body .conteiner .skills p,
+body .conteiner .skills h4,
+body .conteiner .about_me .description,
+body .conteiner .additional .skills_list {
     padding: 0 5vw;
     font-size: calc(16px + 0.3333333333vw);
   }
@@ -265,7 +414,12 @@ body .conteiner .hearopage .button {
   body .conteiner .projects h2,
 body .conteiner .projects .project1 h3,
 body .conteiner .projects .project2 h3,
-body .conteiner .projects .project3 h3 {
+body .conteiner .projects .project3 h3,
+body .conteiner .technologies,
+body .conteiner .about_me_h2,
+body .conteiner .h3,
+body .conteiner footer,
+body .conteiner footer .footer_icon {
     font-size: calc(23px + 20.4 * (100vw - 360px) / 1200);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -277,7 +431,11 @@ body .conteiner .projects .project3 p,
 body .conteiner .projects .project3 .button2,
 body .conteiner .projects .project2 .button2,
 body .conteiner .projects .project1 .button1,
-body .conteiner .hearopage .button {
+body .conteiner .hearopage .button,
+body .conteiner .skills p,
+body .conteiner .skills h4,
+body .conteiner .about_me .description,
+body .conteiner .additional .skills_list {
     padding: 0;
     font-size: calc(16px + 6.8 * (100vw - 320px) / 1200);
   }
@@ -288,7 +446,6 @@ body .conteiner .hearopage .button {
   }
   ul {
     display: grid;
-    color: #0F1624;
   }
   body .conteiner header #nav-burger {
     display: inline;
@@ -398,5 +555,29 @@ body .conteiner .projects .project3 .button2 {
     margin-left: 60px;
     margin-top: 20px;
     margin-bottom: 0;
+  }
+  body .conteiner .skills .html_p {
+    margin-left: 0;
+    height: auto;
+  }
+  body .conteiner .about_me .description {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  body .conteiner .about_me {
+    display: grid;
+  }
+  body .conteiner .about_me .rain_dropp {
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  body .conteiner .about_me .description {
+    width: 90%;
+  }
+  body .conteiner .additional {
+    display: grid;
+  }
+  body .conteiner .additional .skills_list {
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */
